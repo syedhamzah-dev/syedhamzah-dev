@@ -1,99 +1,131 @@
 # Syed Mohammad Hamzah
 
-**Computer Science Undergraduate | Data Science | Artificial Intelligence | Software Development**
-
-I am a Computer Science and Engineering undergraduate interested in software development, data analytics, and intelligent systems. I use GitHub to build projects, experiment with technologies, and document my learning journey.
-
-[LinkedIn](https://www.linkedin.com/in/syedmohdhamzah/) · [Beyond the Algorithm](https://beyond-the-algorithm-sable.vercel.app/) · [Explore Repositories](https://github.com/syedhamzah-dev?tab=repositories)
-
----
-
-## About
-
-- Exploring Data Science, Machine Learning, and Artificial Intelligence.
-- Building projects across software development and data analytics.
-- Strengthening my foundations in programming, mathematics, and problem-solving.
-- Documenting technical concepts and experiments through **Beyond the Algorithm**.
-
-## Technical Stack
-
-**Programming Languages**
-
-Python · Java · JavaScript · C · SQL
-
-**Data Science & Analytics**
-
-Pandas · NumPy · Matplotlib · Seaborn · Power BI
-
-**Web & Backend Development**
-
-HTML · CSS · React · Next.js · Flask · FastAPI
-
-**Tools & Platforms**
-
-Git · GitHub · Jupyter Notebook · Docker
-
----
-
-## Featured Projects
-
-### [Beyond the Algorithm](https://github.com/syedhamzah-dev/engineering-journal)
-
-An independent technology publication documenting concepts, projects, experiments, and learning in Data Science, Artificial Intelligence, Machine Learning, and programming.
-
-`Next.js` `React` `JavaScript` `CSS`
-
-### [ResourceBridge](https://github.com/syedhamzah-dev/resourcebridge)
-
-A campus resource-sharing platform designed around resource discovery, booking workflows, manager approvals, and accountability.
-
-`Python` `Flask` `HTML` `CSS` `JavaScript`
-
-### [Autonomous AI Creator](https://github.com/syedhamzah-dev/autonomous-ai-creator)
-
-An autonomous AI agent that discovers technology topics, evaluates relevance, avoids repetitive content, and generates source-grounded posts.
-
-`Python` `FastAPI` `AsyncIO`
-
-### [Customer Behaviour Analysis](https://github.com/syedhamzah-dev/customer_behaviour_analysis)
-
-Exploring customer shopping behaviour and purchasing patterns through data analysis and business intelligence.
-
-`Python` `Pandas` `SQL` `Power BI`
-
-### [Gurgaon Real Estate Analysis](https://github.com/syedhamzah-dev/gurgaon-real-estate-analysis)
-
-Exploratory analysis of real estate data to understand property characteristics and pricing patterns.
-
-`Python` `Pandas` `NumPy` `Matplotlib`
-
-### [Personal Portfolio](https://github.com/syedhamzah-dev/portfolio)
-
-My personal portfolio repository.
-
----
-
-## Other Projects & Experiments
-
-A collection of programming exercises, smaller applications, and technical experiments.
-
-- [Expense Tracker](https://github.com/syedhamzah-dev/Expense_Tracker)
-- [Notes Maker](https://github.com/syedhamzah-dev/Notes-Maker)
-- [Simple Calculator in C](https://github.com/syedhamzah-dev/Simple-Calculator-in-C)
-- [Marks Calculator](https://github.com/syedhamzah-dev/Marks-Calculator)
-- [Inkloom](https://github.com/syedhamzah-dev/inkloom)
-- [Claude AI Challenge](https://github.com/syedhamzah-dev/Claude-AI-Challenge)
-- [Election Campaign Analysis](https://github.com/syedhamzah-dev/election-campaign-analysis)
-- [DemoRepo](https://github.com/syedhamzah-dev/DemoRepo)
-- [localRepo](https://github.com/syedhamzah-dev/localRepo)
-- [Desktop Tutorial](https://github.com/syedhamzah-dev/desktop-tutorial)
-
-[View all repositories →](https://github.com/syedhamzah-dev?tab=repositories)
-
----
-
-## GitHub Statistics
+<p align="center">
+  <strong>Computer Science Undergraduate</strong><br/>
+  Data Science | Artificial Intelligence | Software Development
+</p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=syedhamzah-dev&show_icons=true&include_all_commits=true&rank_icon=github&theme=github_dark&hide_border=true" height="180" alt="GitHub statistics" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=syedhamzah-dev&layout=donut&langs_count=8&theme
+  <img src="https://komarev.com/ghpvc/?username=syedhamzah-dev&label=PROFILE%20VIEWS&color=0e75b6&style=flat-square" alt="Profile views"/>
+  <img src="https://img.shields.io/github/followers/syedhamzah-dev?label=Followers&style=flat-square&color=blue" alt="GitHub followers"/>
+  <img src="https://img.shields.io/github/stars/syedhamzah-dev?affiliations=OWNER%2CCOLLABORATOR&style=flat-square&color=yellow&label=Stars" alt="GitHub stars"/>
+</p>
+
+---
+
+## 🚀 About Me
+
+- 🎓 B.Tech Computer Science and Engineering student at Integral University.
+- 🐍 Exploring Python, Data Science, and data analytics.
+- 🤖 Learning Machine Learning and Artificial Intelligence.
+- 💻 Building practical projects and experimenting with new technologies.
+- 📝 Creator of **[Beyond the Algorithm](https://beyond-the-algorithm-sable.vercel.app/)** — my independent technology publication.
+- 🎯 Currently strengthening my foundations in mathematics, programming, and problem-solving.
+
+---
+
+## 🌐 Connect With Me
+
+<p align="left">
+  <a href="https://github.com/syedhamzah-dev">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+  <a href="https://www.linkedin.com/in/syedmohdhamzah/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="https://beyond-the-algorithm-sable.vercel.app/">
+    <img src="https://img.shields.io/badge/Beyond_the_Algorithm-285943?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Beyond the Algorithm"/>
+  </a>
+</p>
+
+---
+
+## 📊 GitHub Statistics
+
+<p align="center">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=syedhamzah-dev&show_icons=true&include_all_commits=true&rank_icon=github&theme=tokyonight&hide_border=true" alt="GitHub statistics"/>
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=syedhamzah-dev&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" alt="Most used languages"/>
+</p>
+
+---
+
+## 💻 Tech Stack
+
+<p align="center">
+  <strong>Languages & Development</strong><br/><br/>
+  <img src="https://skillicons.dev/icons?i=python,java,js,c,html,css,react,nextjs,flask,fastapi,mysql,git,github,vscode,linux&theme=dark" alt="Technology icons"/>
+</p>
+
+<p align="center">
+  <strong>Data Science & Analytics</strong><br/><br/>
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"/>
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy"/>
+  <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge" alt="Matplotlib"/>
+  <img src="https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge" alt="Seaborn"/>
+  <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI"/>
+</p>
+
+---
+
+## 🔥 GitHub Streak
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=syedhamzah-dev&theme=tokyonight&hide_border=true" alt="GitHub contribution streak"/>
+</p>
+
+---
+
+## 🏆 GitHub Trophies
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=syedhamzah-dev&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&column=4" alt="GitHub trophies"/>
+</p>
+
+---
+
+## 📈 Contribution Graph
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=syedhamzah-dev&theme=tokyo-night&hide_border=true&area=true" width="100%" alt="GitHub contribution graph"/>
+</p>
+
+---
+
+## 📌 Featured Repositories
+
+<p align="center">
+  <a href="https://github.com/syedhamzah-dev/resourcebridge">
+    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=syedhamzah-dev&repo=resourcebridge&theme=tokyonight&hide_border=true" alt="ResourceBridge"/>
+  </a>
+  <a href="https://github.com/syedhamzah-dev/autonomous-ai-creator">
+    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=syedhamzah-dev&repo=autonomous-ai-creator&theme=tokyonight&hide_border=true" alt="Autonomous AI Creator"/>
+  </a>
+  <a href="https://github.com/syedhamzah-dev/customer_behaviour_analysis">
+    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=syedhamzah-dev&repo=customer_behaviour_analysis&theme=tokyonight&hide_border=true" alt="Customer Behaviour Analysis"/>
+  </a>
+  <a href="https://github.com/syedhamzah-dev/engineering-journal">
+    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=syedhamzah-dev&repo=engineering-journal&theme=tokyonight&hide_border=true" alt="Beyond the Algorithm"/>
+  </a>
+</p>
+
+---
+
+## 💡 My Philosophy
+
+<p align="center">
+  <i>"Build something. Understand how it works. Learn from what breaks. Repeat."</i>
+</p>
+
+## 🎯 A Little About My Journey
+
+I started with programming fundamentals and gradually became interested in data analysis, software development, and Artificial Intelligence.
+
+I enjoy learning by building things, experimenting with ideas, and documenting what I discover.
+
+**Beyond the Algorithm** is where I share that journey.
+
+---
+
+<p align="center">
+  <sub>Learning continuously · Building consistently · Exploring beyond the algorithm.</sub>
+</p>

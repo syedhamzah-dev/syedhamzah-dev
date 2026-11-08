@@ -143,6 +143,29 @@ def build_contributions(contribution):
     body += label(30, 218, "Contribution counts supplied by GitHub.", 11, MUTED)
     save("contributions.svg", body, 1000, 240)
 
+
+def build_stack():
+    groups = [
+        ("LANGUAGES", ["Python", "Java", "JavaScript", "C", "SQL"]),
+        ("DATA & ANALYTICS", ["Pandas", "NumPy", "Matplotlib", "Seaborn", "Power BI"]),
+        ("WEB & BACKEND", ["HTML", "CSS", "React", "Next.js", "Flask", "FastAPI"]),
+        ("TOOLS", ["Git", "GitHub", "Jupyter Notebook", "Docker"])
+    ]
+    body, y = "", 36
+    for heading, items in groups:
+        body += label(30, y, heading, 11, MUTED, 700)
+        y += 15
+        x = 30
+        for item in items:
+            width = max(76, len(item) * 8 + 22)
+            if x + width > 970:
+                x, y = 30, y + 34
+            body += f'<rect x="{x}" y="{y}" width="{width}" height="27" rx="6" fill="{PANEL}" stroke="{BORDER}"/>'
+            body += label(x + width / 2, y + 18, item, 11, TEXT, 600, "middle")
+            x += width + 8
+        y += 42
+    save("tech-stack.svg", body, 1000, y + 8)
+
 def build():
     repositories = all_repositories()
     contribution = graphql("""
@@ -164,6 +187,7 @@ def build():
     build_stats(repositories, contribution)
     build_languages(repositories)
     build_contributions(contribution)
+    build_stack()
     print(f"Updated profile analytics from {len(repositories)} accessible repositories.")
 
 if __name__ == "__main__":

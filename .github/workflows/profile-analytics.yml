@@ -28,7 +28,7 @@ jobs:
           python-version: "3.12"
       - name: Generate analytics SVGs
         env:
-          GITHUB_TOKEN: \${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/generate_stats.py
       - name: Commit updated analytics
         run: |

@@ -1,123 +1,99 @@
 # Syed Mohammad Hamzah
 
-**Computer Science Undergraduate · Data Science · Artificial Intelligence · Software Development**
+**Computer Science Undergraduate | Data Science | Artificial Intelligence | Software Development**
 
-I am a Computer Science and Engineering undergraduate interested in software development, data analytics, and intelligent systems. I use GitHub to build projects, explore technologies, and document my learning journey.
+I am a Computer Science and Engineering undergraduate interested in software development, data analytics, and intelligent systems. I use GitHub to build projects, experiment with technologies, and document my learning journey.
 
-[LinkedIn](https://www.linkedin.com/in/syedmohdhamzah/) · [Personal Portfolio](https://syedhamzah.netlify.app/) · [Beyond the Algorithm](https://beyond-the-algorithm-sable.vercel.app/)
+[LinkedIn](https://www.linkedin.com/in/syedmohdhamzah/) · [Beyond the Algorithm](https://beyond-the-algorithm-sable.vercel.app/) · [Explore Repositories](https://github.com/syedhamzah-dev?tab=repositories)
 
 ---
 
 ## About
 
 - Exploring Data Science, Machine Learning, and Artificial Intelligence.
-- Developing software and data-oriented projects.
-- Strengthening programming, mathematics, and problem-solving foundations.
-- Sharing technical learning through [Beyond the Algorithm](https://beyond-the-algorithm-sable.vercel.app/).
+- Building projects across software development and data analytics.
+- Strengthening my foundations in programming, mathematics, and problem-solving.
+- Documenting technical concepts and experiments through **Beyond the Algorithm**.
 
-## Technology
+## Technical Stack
 
-**Programming:** Python · Java · JavaScript · C · SQL
+**Programming Languages**
 
-**Data & Analytics:** Pandas · NumPy · Matplotlib · Seaborn · Power BI
+Python · Java · JavaScript · C · SQL
 
-**Web & Backend:** HTML · CSS · React · Next.js · Flask · FastAPI
+**Data Science & Analytics**
 
-**Tools & Platforms:** Git · GitHub · Jupyter Notebook · Docker
+Pandas · NumPy · Matplotlib · Seaborn · Power BI
 
-*Technologies listed reflect the projects and learning areas represented in my repositories; they do not imply equal proficiency in every tool.*
+**Web & Backend Development**
+
+HTML · CSS · React · Next.js · Flask · FastAPI
+
+**Tools & Platforms**
+
+Git · GitHub · Jupyter Notebook · Docker
 
 ---
 
 ## Featured Projects
 
 ### [Beyond the Algorithm](https://github.com/syedhamzah-dev/engineering-journal)
-An independent technology publication exploring Data Science, Artificial Intelligence, Machine Learning, programming, and computing.
+
+An independent technology publication documenting concepts, projects, experiments, and learning in Data Science, Artificial Intelligence, Machine Learning, and programming.
 
 `Next.js` `React` `JavaScript` `CSS`
 
 ### [ResourceBridge](https://github.com/syedhamzah-dev/resourcebridge)
-A campus resource-sharing application featuring resource discovery, booking workflows, manager approvals, and accountability.
+
+A campus resource-sharing platform designed around resource discovery, booking workflows, manager approvals, and accountability.
 
 `Python` `Flask` `HTML` `CSS` `JavaScript`
 
 ### [Autonomous AI Creator](https://github.com/syedhamzah-dev/autonomous-ai-creator)
-An autonomous AI agent that discovers technology topics, evaluates relevance, prevents repetitive content, and generates source-grounded posts.
 
-`Python` `FastAPI` `AsyncIO` `Gemini API`
+An autonomous AI agent that discovers technology topics, evaluates relevance, avoids repetitive content, and generates source-grounded posts.
+
+`Python` `FastAPI` `AsyncIO`
 
 ### [Customer Behaviour Analysis](https://github.com/syedhamzah-dev/customer_behaviour_analysis)
-Analysis of customer shopping behaviour and purchasing patterns using data analysis and business intelligence tools.
+
+Exploring customer shopping behaviour and purchasing patterns through data analysis and business intelligence.
 
 `Python` `Pandas` `SQL` `Power BI`
 
 ### [Gurgaon Real Estate Analysis](https://github.com/syedhamzah-dev/gurgaon-real-estate-analysis)
-Exploratory data analysis of real estate information and property pricing patterns.
+
+Exploratory analysis of real estate data to understand property characteristics and pricing patterns.
 
 `Python` `Pandas` `NumPy` `Matplotlib`
 
 ### [Personal Portfolio](https://github.com/syedhamzah-dev/portfolio)
-A responsive personal portfolio website with dynamic content management and light/dark themes.
 
-`HTML` `CSS` `JavaScript`
-
----
-
-## Other Repositories
-
-A collection of smaller applications, experiments, and learning projects:
-
-| Repository | Focus |
-|---|---|
-| [Expense Tracker](https://github.com/syedhamzah-dev/Expense_Tracker) | Python command-line expense management with JSON storage |
-| [Notes Maker](https://github.com/syedhamzah-dev/Notes-Maker) | Browser-based notes using HTML, CSS, JavaScript, and localStorage |
-| [Simple Calculator in C](https://github.com/syedhamzah-dev/Simple-Calculator-in-C) | Console-based arithmetic calculator |
-| [Claude AI Challenge](https://github.com/syedhamzah-dev/Claude-AI-Challenge) | AI tools, prompt engineering, workflows, and learning journal |
-| [Inkloom](https://github.com/syedhamzah-dev/inkloom) | AI-assisted logo-design platform repository |
-| [Election Campaign Analysis](https://github.com/syedhamzah-dev/election-campaign-analysis) | Repository for election campaign analysis |
-| [Marks Calculator](https://github.com/syedhamzah-dev/Marks-Calculator) | Programming practice project |
-| [DemoRepo](https://github.com/syedhamzah-dev/DemoRepo) | GitHub introductory repository |
-| [localRepo](https://github.com/syedhamzah-dev/localRepo) | Git and local repository practice |
-| [Desktop Tutorial](https://github.com/syedhamzah-dev/desktop-tutorial) | GitHub Desktop tutorial repository |
-
-[Explore all repositories →](https://github.com/syedhamzah-dev?tab=repositories)
+My personal portfolio repository.
 
 ---
 
-## GitHub Analytics
+## Other Projects & Experiments
 
-<p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=syedhamzah-dev&amp;show_icons=true&amp;include_all_commits=true&amp;rank_icon=github&amp;theme=github_dark&amp;hide_border=true" alt="GitHub statistics and commits" />
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=syedhamzah-dev&amp;layout=donut&amp;langs_count=8&amp;theme=github_dark&amp;hide_border=true" alt="Dynamic programming language distribution" />
-</p>
+A collection of programming exercises, smaller applications, and technical experiments.
 
-## Language Distribution
+- [Expense Tracker](https://github.com/syedhamzah-dev/Expense_Tracker)
+- [Notes Maker](https://github.com/syedhamzah-dev/Notes-Maker)
+- [Simple Calculator in C](https://github.com/syedhamzah-dev/Simple-Calculator-in-C)
+- [Marks Calculator](https://github.com/syedhamzah-dev/Marks-Calculator)
+- [Inkloom](https://github.com/syedhamzah-dev/inkloom)
+- [Claude AI Challenge](https://github.com/syedhamzah-dev/Claude-AI-Challenge)
+- [Election Campaign Analysis](https://github.com/syedhamzah-dev/election-campaign-analysis)
+- [DemoRepo](https://github.com/syedhamzah-dev/DemoRepo)
+- [localRepo](https://github.com/syedhamzah-dev/localRepo)
+- [Desktop Tutorial](https://github.com/syedhamzah-dev/desktop-tutorial)
 
-<p align="center">
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=syedhamzah-dev&amp;theme=github_dark" alt="Repository language distribution" />
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=syedhamzah-dev&amp;theme=github_dark" alt="Languages with the most commits" />
-</p>
-
-## Contribution Streak
-
-<p align="center">
-  <img width="65%" src="https://streak-stats.demolab.com?user=syedhamzah-dev&amp;theme=github-dark-blue&amp;hide_border=true" alt="GitHub contribution streak" />
-</p>
+[View all repositories →](https://github.com/syedhamzah-dev?tab=repositories)
 
 ---
 
-## Beyond the Code
-
-I believe in learning by building, experimenting, documenting, and improving.
-
-Through [Beyond the Algorithm](https://beyond-the-algorithm-sable.vercel.app/), I document my exploration of Data Science, Artificial Intelligence, Machine Learning, and the ideas behind them.
-
-## Connect
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&amp;logo=linkedin&amp;logoColor=white)](https://www.linkedin.com/in/syedmohdhamzah/)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=flat&amp;logo=github&amp;logoColor=white)](https://github.com/syedhamzah-dev)
-[![Website](https://img.shields.io/badge/Website-Beyond_the_Algorithm-285943?style=flat)](https://beyond-the-algorithm-sable.vercel.app/)
+## GitHub Statistics
 
 <p align="center">
-  <sub>Learning continuously · Building thoughtfully · Improving consistently</sub>
-</p>
+  <img src="https://github-readme-stats.vercel.app/api?username=syedhamzah-dev&show_icons=true&include_all_commits=true&rank_icon=github&theme=github_dark&hide_border=true" height="180" alt="GitHub statistics" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=syedhamzah-dev&layout=donut&langs_count=8&theme

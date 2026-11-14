@@ -61,72 +61,22 @@
 
 <!-- AUTO-FEATURED-PROJECTS-START -->
 <table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/syedhamzah-dev/election-campaign-analysis">Election Campaign Analyzer (2004–2024)</a></h3>
-      <p>Data science pipeline and Streamlit dashboard exploring five Indian Lok Sabha election cycles, with electoral metrics and visual analysis.</p>
-      <p><sub>Python · Pandas · NumPy · Matplotlib · Seaborn · Streamlit</sub></p>
-      <p><a href="https://election-analyzer.streamlit.app/">Live Dashboard</a></p>
-      <p><sub>Portfolio-listed recognition: Best Project, Data Science In-house Internship/Training at Sipher Web Pvt. Ltd.</sub></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/syedhamzah-dev/Claude-AI-Challenge">Healthcare Efficiency Explorer</a></h3>
-      <p>Interactive analysis of healthcare expenditure and life expectancy across approximately 193 countries using World Bank data.</p>
-      <p><sub>Python · Streamlit · Pandas · Plotly · pytest</sub></p>
-      <p><a href="https://healthcare-efficiency-explorer.streamlit.app/">Live Dashboard</a></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/syedhamzah-dev/resourcebridge">ResourceBridge</a></h3>
-      <p>Campus resource-sharing application built around resource discovery, booking, manager approvals, check-in, returns, and incident tracking.</p>
-      <p><sub>Python · Flask · HTML · CSS · JavaScript</sub></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/syedhamzah-dev/autonomous-ai-creator">Autonomous AI Creator</a></h3>
-      <p>AI workflow for discovering technology topics, checking relevance, reducing repetition, and generating source-grounded content.</p>
-      <p><sub>Python · FastAPI · AsyncIO</sub></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/syedhamzah-dev/customer_behaviour_analysis">Customer Behaviour Analysis</a></h3>
-      <p>Retail analysis combining Python preprocessing, MySQL aggregation, and an interactive Power BI dashboard.</p>
-      <p><sub>Python · Pandas · MySQL · Power BI</sub></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/syedhamzah-dev/gurgaon-real-estate-analysis">Gurgaon Real Estate Analysis</a></h3>
-      <p>Exploratory analysis of property listings, locality patterns, pricing drivers, and property valuation.</p>
-      <p><sub>Python · Pandas · NumPy · Matplotlib · Seaborn</sub></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/syedhamzah-dev/engineering-journal">Beyond the Algorithm</a></h3>
-      <p>Independent technology publication documenting concepts, projects, experiments, and learning in Data Science, AI, ML, and software engineering.</p>
-      <p><sub>Next.js · React · JavaScript · CSS</sub></p>
-      <p><a href="https://beyond-the-algorithm-sable.vercel.app/">Visit Publication</a></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/syedhamzah-dev/portfolio">Personal Portfolio</a></h3>
-      <p>Personal website presenting projects, certifications, and professional background.</p>
-      <p><sub>HTML · CSS · JavaScript</sub></p>
-    </td>
-  </tr>
+<tr><td width="50%" valign="top"><h3><a href="https://github.com/syedhamzah-dev/election-campaign-analysis">Election Campaign Analyzer (2004–2024)</a></h3><p>An interactive data analytics dashboard exploring 20 years of Indian Lok Sabha election results (2004–2024) using Python, Pandas, NumPy, Matplotlib, Seaborn, and Streamlit.</p><p><sub>Python · ⭐ 1</sub></p><p><a href="https://election-analyzer.streamlit.app/">Live project / publication</a></p></td><td width="50%" valign="top"><h3><a href="https://github.com/syedhamzah-dev/Claude-AI-Challenge">Healthcare Efficiency Explorer</a></h3><p>A 60-day hands-on learning challenge exploring Claude AI, AI-powered development, prompt engineering, and practical AI applications through daily experiments and projects.</p><p><sub>HTML · ⭐ 0</sub></p><p><a href="https://healthcare-efficiency-explorer.streamlit.app/">Live project / publication</a></p></td></tr>
+<tr><td width="50%" valign="top"><h3><a href="https://github.com/syedhamzah-dev/resourcebridge">ResourceBridge</a></h3><p>A campus resource-sharing platform that helps students discover and request underused equipment and spaces, with eligibility checks, owner approvals, fair access, condition tracking, and an auditable booking history.</p><p><sub>Python · ⭐ 1</sub></p></td><td width="50%" valign="top"><h3><a href="https://github.com/syedhamzah-dev/autonomous-ai-creator">Autonomous AI Creator</a></h3><p>AI workflow for discovering technology topics, checking relevance, reducing repetition, and generating source-grounded content.</p><p><sub>Python · ⭐ 0</sub></p></td></tr>
+<tr><td width="50%" valign="top"><h3><a href="https://github.com/syedhamzah-dev/customer_behaviour_analysis">Customer Behaviour Analysis</a></h3><p>Customer shopping behaviour analysis using Python, SQL, and Power BI to uncover purchasing patterns, revenue insights, and product performance.</p><p><sub>Jupyter Notebook · ⭐ 0</sub></p></td><td width="50%" valign="top"><h3><a href="https://github.com/syedhamzah-dev/gurgaon-real-estate-analysis">Gurgaon Real Estate Analysis</a></h3><p>Real estate data cleaning, analysis and visualization using Python</p><p><sub>Jupyter Notebook · ⭐ 0</sub></p></td></tr>
+<tr><td width="50%" valign="top"><h3><a href="https://github.com/syedhamzah-dev/engineering-journal">Beyond the Algorithm</a></h3><p>Documenting my journey from an engineering student to the world of Data Science, AI, and Machine Learning.</p><p><sub>JavaScript · ⭐ 0</sub></p><p><a href="https://beyond-the-algorithm-sable.vercel.app/">Live project / publication</a></p></td><td width="50%" valign="top"><h3><a href="https://github.com/syedhamzah-dev/portfolio">Personal Portfolio</a></h3><p>Personal website presenting projects, certifications, and professional background.</p><p><sub>CSS · ⭐ 0</sub></p></td></tr>
 </table>
 <!-- AUTO-FEATURED-PROJECTS-END -->
 
 ## 🧪 More Projects & Experiments
 
 <!-- AUTO-MORE-PROJECTS-START -->
-- [Expense Tracker](https://github.com/syedhamzah-dev/Expense_Tracker)
-- [Notes Maker](https://github.com/syedhamzah-dev/Notes-Maker)
-- [Simple Calculator in C](https://github.com/syedhamzah-dev/Simple-Calculator-in-C)
-- [Marks Calculator](https://github.com/syedhamzah-dev/Marks-Calculator)
-- [Claude AI Challenge](https://github.com/syedhamzah-dev/Claude-AI-Challenge)
-- [DemoRepo](https://github.com/syedhamzah-dev/DemoRepo)
-- [localRepo](https://github.com/syedhamzah-dev/localRepo)
-- [Desktop Tutorial](https://github.com/syedhamzah-dev/desktop-tutorial)
+- [super__rr__selection](https://github.com/syedhamzah-dev/super__rr__selection) — Data-driven cricket analytics system to identify and rank IPL and T20I batters and bowlers based on their performance under high-pressure match situations using Python, statistical analysis, and interactive visualizations. · Jupyter Notebook · ⭐ 0
+- [my_repo](https://github.com/syedhamzah-dev/my_repo) · HTML · ⭐ 0
+- [Marks-Calculator](https://github.com/syedhamzah-dev/Marks-Calculator) · Java · ⭐ 0
+- [Simple-Calculator-in-C](https://github.com/syedhamzah-dev/Simple-Calculator-in-C) · C · ⭐ 0
+- [Expense_Tracker](https://github.com/syedhamzah-dev/Expense_Tracker) · Python · ⭐ 0
+- [Notes-Maker](https://github.com/syedhamzah-dev/Notes-Maker) · CSS · ⭐ 0
 <!-- AUTO-MORE-PROJECTS-END -->
 
 [Browse all repositories →](https://github.com/syedhamzah-dev?tab=repositories)

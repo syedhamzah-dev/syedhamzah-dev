@@ -111,6 +111,7 @@ def build_languages(repos):
         y += 26
     body += label(30, 290, "GitHub language byte counts · Repository composition, not skill level", 11, MUTED)
     save("languages.svg", body, 1000, 315)
+    return totals
 
 def build_contributions(contribution):
     calendar = contribution["contributionCalendar"]
@@ -144,9 +145,16 @@ def build_contributions(contribution):
     save("contributions.svg", body, 1000, 240)
 
 
-def build_stack():
+def build_stack(language_totals):
+    # Programming languages come from GitHub's repository language API.
+    languages = [name for name, _ in sorted(
+        language_totals.items(), key=lambda item: item[1], reverse=True
+    )[:8]]
+
+    # Frameworks and tools remain curated: repository language statistics
+    # cannot reliably identify dependencies or distinguish use from learning.
     groups = [
-        ("LANGUAGES", ["Python", "Java", "JavaScript", "C", "SQL"]),
+        ("LANGUAGES · FROM REPOSITORIES", languages or ["No language data"]),
         ("DATA & ANALYTICS", ["Pandas", "NumPy", "Matplotlib", "Seaborn", "Power BI"]),
         ("WEB & BACKEND", ["HTML", "CSS", "React", "Next.js", "Flask", "FastAPI"]),
         ("TOOLS", ["Git", "GitHub", "Jupyter Notebook", "Docker"])
@@ -165,6 +173,97 @@ def build_stack():
             x += width + 8
         y += 42
     save("tech-stack.svg", body, 1000, y + 8)
+
+
+FEATURED_PROJECTS = [
+    ("election-campaign-analysis", "Election Campaign Analyzer (2004–2024)", "https://election-analyzer.streamlit.app/"),
+    ("Claude-AI-Challenge", "Healthcare Efficiency Explorer", "https://healthcare-efficiency-explorer.streamlit.app/"),
+    ("resourcebridge", "ResourceBridge", None),
+    ("autonomous-ai-creator", "Autonomous AI Creator", None),
+    ("customer_behaviour_analysis", "Customer Behaviour Analysis", None),
+    ("gurgaon-real-estate-analysis", "Gurgaon Real Estate Analysis", None),
+    ("engineering-journal", "Beyond the Algorithm", "https://beyond-the-algorithm-sable.vercel.app/"),
+    ("portfolio", "Personal Portfolio", None),
+]
+
+FEATURED_FALLBACKS = {
+    "election-campaign-analysis": "Data science pipeline and Streamlit dashboard exploring five Indian Lok Sabha election cycles, with electoral metrics and visual analysis.",
+    "Claude-AI-Challenge": "Interactive analysis of healthcare expenditure and life expectancy across approximately 193 countries using World Bank data.",
+    "resourcebridge": "Campus resource-sharing application built around resource discovery, booking, manager approvals, check-in, returns, and incident tracking.",
+    "autonomous-ai-creator": "AI workflow for discovering technology topics, checking relevance, reducing repetition, and generating source-grounded content.",
+    "customer_behaviour_analysis": "Retail analysis combining Python preprocessing, MySQL aggregation, and an interactive Power BI dashboard.",
+    "gurgaon-real-estate-analysis": "Exploratory analysis of property listings, locality patterns, pricing drivers, and property valuation.",
+    "engineering-journal": "Independent technology publication documenting concepts, projects, experiments, and learning in Data Science, AI, ML, and software engineering.",
+    "portfolio": "Personal website presenting projects, certifications, and professional background.",
+}
+
+def replace_auto_section(readme, start_marker, end_marker, generated):
+    start = readme.find(start_marker)
+    end = readme.find(end_marker)
+    if start == -1 or end == -1 or end < start:
+        raise RuntimeError(f"README markers missing or out of order: {start_marker}")
+    return readme[:start] + start_marker + "\n" + generated.rstrip() + "\n" + readme[end:]
+
+
+def build_readme_projects(repos):
+    public = {r["name"]: r for r in repos if not r.get("private") and not r.get("fork")}
+    featured_rows = []
+    for name, title, live_url in FEATURED_PROJECTS:
+        repo = public.get(name)
+        if not repo:
+            continue
+        description = (repo.get("description") or FEATURED_FALLBACKS.get(name) or "Project repository.").strip()
+        language = repo.get("language") or "Multiple technologies"
+        stars = repo.get("stargazers_count", 0)
+        details = f"<p>{html.escape(description)}</p><p><sub>{html.escape(language)} · ⭐ {stars}</sub></p>"
+        if live_url:
+            details += f'<p><a href="{html.escape(live_url, quote=True)}">Live project / publication</a></p>'
+        featured_rows.append(
+            f'<td width="50%" valign="top"><h3><a href="{html.escape(repo["html_url"], quote=True)}">{html.escape(title)}</a></h3>{details}</td>'
+        )
+
+    table_rows = []
+    for index in range(0, len(featured_rows), 2):
+        cells = "".join(featured_rows[index:index + 2])
+        if index + 1 == len(featured_rows):
+            cells += '<td width="50%" valign="top"></td>'
+        table_rows.append(f"<tr>{cells}</tr>")
+    featured_markdown = "<table>\n" + "\n".join(table_rows) + "\n</table>"
+
+    excluded = {name for name, _, _ in FEATURED_PROJECTS}
+    others = [
+        r for r in public.values()
+        if r["name"] not in excluded and r["name"] != USER
+    ]
+    others.sort(key=lambda r: (r.get("stargazers_count", 0), r.get("updated_at", "")), reverse=True)
+    lines = []
+    for repo in others[:12]:
+        description = (repo.get("description") or "").strip()
+        suffix = f" — {description}" if description else ""
+        language = repo.get("language")
+        metadata = f" · {language}" if language else ""
+        stars = repo.get("stargazers_count", 0)
+        lines.append(
+            f'- [{repo["name"]}]({repo["html_url"]}){html.escape(suffix)}'
+            f'{html.escape(metadata)} · ⭐ {stars}'
+        )
+    if not lines:
+        lines = ["_No additional public repositories to display yet._"]
+    more_markdown = "\n".join(lines)
+
+    path = Path("README.md")
+    readme = path.read_text(encoding="utf-8")
+    readme = replace_auto_section(
+        readme, "<!-- AUTO-FEATURED-PROJECTS-START -->",
+        "<!-- AUTO-FEATURED-PROJECTS-END -->", featured_markdown
+    )
+    readme = replace_auto_section(
+        readme, "<!-- AUTO-MORE-PROJECTS-START -->",
+        "<!-- AUTO-MORE-PROJECTS-END -->", more_markdown
+    )
+    path.write_text(readme, encoding="utf-8")
+
+
 
 def build():
     repositories = all_repositories()
@@ -185,10 +284,11 @@ def build():
       }
     """)
     build_stats(repositories, contribution)
-    build_languages(repositories)
+    language_totals = build_languages(repositories)
     build_contributions(contribution)
-    build_stack()
-    print(f"Updated profile analytics from {len(repositories)} accessible repositories.")
+    build_stack(language_totals)
+    build_readme_projects(repositories)
+    print(f"Updated profile analytics and README project sections from {len(repositories)} accessible repositories.")
 
 if __name__ == "__main__":
     build()

@@ -59,6 +59,7 @@
 
 ## 🚀 Featured Projects
 
+<!-- AUTO-FEATURED-PROJECTS-START -->
 <table>
   <tr>
     <td width="50%" valign="top">
@@ -113,9 +114,11 @@
     </td>
   </tr>
 </table>
+<!-- AUTO-FEATURED-PROJECTS-END -->
 
 ## 🧪 More Projects & Experiments
 
+<!-- AUTO-MORE-PROJECTS-START -->
 - [Expense Tracker](https://github.com/syedhamzah-dev/Expense_Tracker)
 - [Notes Maker](https://github.com/syedhamzah-dev/Notes-Maker)
 - [Simple Calculator in C](https://github.com/syedhamzah-dev/Simple-Calculator-in-C)
@@ -124,6 +127,7 @@
 - [DemoRepo](https://github.com/syedhamzah-dev/DemoRepo)
 - [localRepo](https://github.com/syedhamzah-dev/localRepo)
 - [Desktop Tutorial](https://github.com/syedhamzah-dev/desktop-tutorial)
+<!-- AUTO-MORE-PROJECTS-END -->
 
 [Browse all repositories →](https://github.com/syedhamzah-dev?tab=repositories)
 
